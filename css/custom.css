@@ -1,0 +1,38 @@
+.ser_box{padding:70px 0px;font-family:"Athiti",sans-serif;}
+.services-container{display:flex;flex-wrap:wrap;justify-content:space-between;width:inherit;}
+.service-box{width:220px;padding:20px;background:white;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.2);text-align:center;position:relative;overflow:hidden;transition:transform 0.4s ease-in-out,box-shadow 0.4s ease-in-out;}
+.service-box:hover{transform:translateY(-10px);box-shadow:0 8px 16px rgba(0,0,0,0.3);}
+.icon{font-size:40px;margin-bottom:10px;color:#007BFF;}
+.animate{position:absolute;width:100%;height:100%;background:rgba(0,123,255,0.1);top:-100%;left:0;transition:top 0.5s ease-in-out;}
+.service-box:hover .animate{top:0;}
+.service-box h3{font-weight:600;}
+.rooms{padding:50px 0px;}
+.room-house{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
+@media (max-width:1024px){.room-box{width:45%;}
+}
+@media (max-width:768px){.room-box{width:100%;}
+}
+.room-box div{margin:0px 5px;}
+.room-box{width:30%;border-radius:15px;
+ overflow:hidden;font-size:16px;background:#f8f9fa;box-shadow:0 4px 10px rgba(0,0,0,0.1);transition:transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;opacity:0;transform:translateY(20px);animation:fadeIn 1s ease-in-out forwards;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(20px);}
+to{opacity:1;transform:translateY(0);}
+}
+.room-box img{width:100%;height:250px;border-radius:15px 15px 0 0;object-fit:cover;transition:transform 0.3s ease-in-out;}
+.room-box div{padding:15px;text-align:center;}
+.room-box h2{font-size:22px;color:#124a4e;margin-bottom:8px;font-weight:600;}
+.room-box p{color:#555;margin-bottom:10px;}
+.room-box p:last-child{font-weight:bold;color:rgb(18 95 60);}
+.room-box:hover{transform:translateY(-5px);
+ box-shadow:0 8px 15px rgba(0,0,0,0.15);}
+.room-box:hover img{transform:scale(1.05);
+}
+.map_box{padding:20px 0px;}
+.map-container iframe{border-radius:10px;}
+.map-container{position:relative;width:100%;padding-bottom:56.25%;
+ overflow:hidden;border-radius:10px;box-shadow:0 0 15px rgba(0,0,0,0.2);margin-top:20px;}
+.map-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+.icon i{color:rgb(18 95 60);}
+.room_btn{text-align:center;margin-top:30px;}
+.room_btn a{margin-top:10px;background:#124a4e;border:2px solid #124a4e;}
+.room_btn a:hover{border:2px solid #124a4e;color:#124a4e;background:#fff;}
