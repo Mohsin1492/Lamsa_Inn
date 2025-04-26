@@ -43,7 +43,7 @@ button:focus{outline:none;}
 .btn-outline-new-white:hover{color:#ffffff;background-color:#124a4e;border-color:#124a4e;}
 .overlay-background{background:#333;position:absolute;height:100%;width:100%;left:0;top:0;opacity:0.5;}
 .cover-slides h1{font-family:"Arbutus Slab",serif;font-weight:500;font-size:64px;color:#fff;}
-.cover-slides p{font-size:18px;color:#fff;}
+.cover-slides p{font-size:24px;color:#fff;}
 .slides-pagination a{border:2px solid #ffffff;}
 .slides-pagination a.current{background:#124a4e;border:2px solid #124a4e;}
 /*--------------------------- About--------------------------------------*/
@@ -52,17 +52,9 @@ button:focus{outline:none;}
 @keyframes slideInLeft{from{opacity:0;transform:translateX(-50px);}
 to{opacity:1;transform:translateX(0);}
 }
-@keyframes slideInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+@keyframes slideInLeft{from{opacity:0;transform:translateX(-50px);}
+to{opacity:1;transform:translateX(0);}
 }
-.inner-column{}
 .inner-column h1{font-family:"Arbutus Slab",serif;font-size:30px;color:#010101;}
 .inner-column h1 span{color:#124a4e;font-weight:bold;}
 .inner-column h4{font-size:16px;font-weight:500;}

@@ -44,15 +44,17 @@
 		box-shadow: none;
 	}
 	.cover-slides h1{
-		font-size: 22px;
+		font-size: 45px;
 	}
 	.cover-slides p {
+		font-size: 15px;
+	}
+	.btn{
+		padding: 10px 24px;
 		font-size: 14px;
 	}
 	.slides-navigation a{
-		height: 42px;
-		width: 38px;
-		line-height: 33px;
+		display: none;
 	}
 	.inner-column{
 		margin-top: 15px;
@@ -94,6 +96,7 @@
 	}
 	
 }
+
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	
 	.why-text p{
